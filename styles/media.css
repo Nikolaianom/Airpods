@@ -1,0 +1,101 @@
+@media (max-width: 1200px ) {
+    .main__items {
+        flex-wrap: wrap;
+    row-gap: 30px;
+}
+    }
+@media (max-width: 992px) {
+    .main__content-first {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 767px) {
+    .main__content-two {
+     flex-wrap: wrap;
+     justify-content: center;
+     row-gap: 20px;
+    }
+    .main__content-three {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .main__content-line::before {
+        display: none;
+    }
+    .main__content-first {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    .main__content-discrtwo {
+        max-width: 333px;
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .main__content-img {
+        width: 100%;
+    }
+    .main__content-discription , .main__content-discrriptiontwo , .main__content-discrriptiontwo , .main__content-discription-three {
+        text-align: center;
+    }
+    .main__content-discrriptiontwo {
+        text-align: center;
+    }
+    .header__info-title {
+        margin-bottom: 5px;
+        font-size: 50px;
+    }
+    .footer__list {
+        column-gap: 15px;
+    }
+    .footer__links-link {
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .main__content-two img{
+        width: 100%;
+    }
+    .footer__cards {
+        column-gap: 10px;
+    }
+    .footer__cards li img {
+        display: block;
+        width: 100%;
+    }
+    .header__nav-link {
+        font-size: 16px;
+
+    }
+    .header__nav-list {
+        column-gap: 12px;
+    }
+    .header__nav-links {
+        column-gap: 11px;
+    }
+    .footer__list {
+        column-gap: 10px;
+    }
+    .footer__links a img {
+        width: 100%;
+    } 
+    .header__info-title {
+        font-size: 35px;
+    }
+    .header__info-link {
+        font-size: 16px;
+        line-height: 15px;
+        padding: 7px 8px;
+    }
+    .header__nav-linklogo img {
+        width: 100%;
+    }
+    .header__nav-linkto li img {
+        width: 100%;
+    }
+}
+
