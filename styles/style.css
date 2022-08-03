@@ -246,6 +246,8 @@ padding: 7px 47px;
 .footer__links-link{
     color: #FFFFFF;
     font-size: 20px;
-line-height: 24px;
+
 font-family: 'mont-bold';
+
+line-height: 24px;
 }
