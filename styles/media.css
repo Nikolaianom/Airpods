@@ -55,6 +55,9 @@
     .footer__links-link {
         font-size: 16px;
     }
+    .main__content-img img {
+        width: 100%;
+    }
 }
 @media (max-width: 480px) {
     .main__content-two img{
@@ -98,6 +101,11 @@
         width: 100%;
         
 
+    }
+    .header__nav-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
     }
 }
 
